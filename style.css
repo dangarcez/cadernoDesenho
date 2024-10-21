@@ -1,0 +1,42 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+.opcoes{
+   width: 480px;
+   margin: 20px auto;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+}
+
+.opcoes button{
+   padding: 5px 10px;
+   background-color: blue;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+
+.opcoes button:hover{
+   background-color: rgb(3, 3, 199);
+}
+
+#areaDesenho{
+   box-sizing: content-box;
+   display: flex;
+   flex-wrap: wrap;
+   width: 480px;
+   margin: 0px auto;
+   border: 1px solid black;
+}
+
+.pixel{
+   height: calc(480px/16);
+}
+
+.painted{
+   background-color: black;
+}
